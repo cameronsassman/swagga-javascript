@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="styling.css" rel="stylesheet">
+<script src="java.js"></script>
+
+<title>ORDER</title>
+
+</head>
+
+<body>
+<!-- <div id="page"> -->
+    <div class="sidebar">
+        <img src="swegga.jpg" style="width:126%">
+    </div>
+    <div class="banner">
+        <img src="delivery.gif" style="width: 20%">
+    </div>
+    <div class="navigation">
+		<img src="links.gif"  usemap="#linked">
+		<map name="linked">
+			<area target="" alt="" title="" href="order.html" coords="10,6,93,34" shape="rect">
+			<area target="" alt="" title="" href="home.html" coords="191,33,105,6" shape="rect">
+			<area target="" alt="" title="" href="test.html" coords="205,4,299,34" shape="rect">
+			<area target="" alt="" title="" href="mess.html" coords="312,6,438,34" shape="rect">
+			<area target="" alt="" title="" href="ok.html" coords="452,7,553,33" shape="rect">
+		</map>
+	</div>
+</br></br></br>
+<h1 style="float: center;">product summary</h1>
+<table>
+	<tr>
+		<th>Description</th>
+		<th>size</th>
+		<th>colour</th>
+		<th>price</th>
+		<th>quantity</th>
+		<th>total</th>
+	</tr>
+	<tr>
+		<td>female ski jackets</td>
+		<td><select name="female ski jackets" id="female ski jackets" style="font-size: x-large">
+			<option value="small">small</option>
+			<option value="medium">medium</option>
+			<option value="large">large</option>
+		</select></td>
+		<td><select name="female ski jackets" id="female ski jackets" style="font-size: x-large">
+			<option value="red">red</option>
+			<option value="blue">blue</option>
+			<option value="green">green</option>
+		</select></td>
+		<td id="ladiespr">R150.95</td>
+		<td><input type="number" id="quantity" name="quantity" min="1" max="5" style="font-size: x-large"></td>
+		<td><input id="ftotalpr" style="font-size: x-large">R</td>
+	</tr>
+	<tr>
+		<td>male ski jackets</td>
+		<td><select name="male ski jackets" id="male ski jackets" style="font-size: x-large">
+			<option value="small">small</option>
+			<option value="medium">medium</option>
+			<option value="large">large</option>
+		</select></td>
+		<td><select name="male ski jackets" id="male ski jackets" style="font-size: x-large">
+			<option value="red">red</option>
+			<option value="blue">blue</option>
+			<option value="green">green</option>
+		</select></td>
+		<td>R180.95</td>
+		<td><input type="number" id="quantity2" name="quantity" min="1" max="5" style="font-size: x-large"></td>
+		<td><input id="mtotalpr" style="font-size: x-large">R</td>
+	</tr>
+	<tr>
+		<td colspan="4">click to confirm and proccess your order:</td>
+		<td><button type="button" style="font-size: x-large" onclick="genders('quantity')">total</button></td>
+		<td><input type="text" id="total" style="font-size: x-large">R</td>
+	</tr>
+
+</table>
+
+</body>
+</html>
